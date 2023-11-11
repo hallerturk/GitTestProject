@@ -1,0 +1,128 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\rpert> cd C:\Users\rpert\OneDrive\Masaüstü\GitProjects
+PS C:\Users\rpert\OneDrive\Masaüstü\GitProjects> git init
+Initialized empty Git repository in C:/Users/rpert/OneDrive/Masaüstü/GitProjects/.git/
+PS C:\Users\rpert\OneDrive\Masaüstü\GitProjects> git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        my_project.txt.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\rpert\OneDrive\Masaüstü\GitProjects> git add .
+PS C:\Users\rpert\OneDrive\Masaüstü\GitProjects> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   my_project.txt.txt
+
+PS C:\Users\rpert\OneDrive\Masaüstü\GitProjects> git commit -m "v1"
+[master (root-commit) 3d5cdd6] v1
+ 1 file changed, 2 insertions(+)
+ create mode 100644 my_project.txt.txt
+PS C:\Users\rpert\OneDrive\Masaüstü\GitProjects> git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        cmd codes.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\rpert\OneDrive\Masaüstü\GitProjects> git log
+commit 3d5cdd61e0e55fa278b0d3006a6405c7f285db3f (HEAD -> master)
+Author: Halo <halo@halo.ca>
+Date:   Sat Aug 12 11:02:17 2023 -0400
+
+    v1
+PS C:\Users\rpert\OneDrive\Masaüstü\GitProjects> git log --oneline
+3d5cdd6 (HEAD -> master) v1
+PS C:\Users\rpert\OneDrive\Masaüstü\GitProjects> git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   my_project.txt.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        cmd codes.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\rpert\OneDrive\Masaüstü\GitProjects> git add .
+PS C:\Users\rpert\OneDrive\Masaüstü\GitProjects> git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   cmd codes.txt
+        modified:   my_project.txt.txt
+
+PS C:\Users\rpert\OneDrive\Masaüstü\GitProjects> git commit -m "v2"
+[master da57574] v2
+ 2 files changed, 49 insertions(+)
+ create mode 100644 cmd codes.txt
+PS C:\Users\rpert\OneDrive\Masaüstü\GitProjects> git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   cmd codes.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\rpert\OneDrive\Masaüstü\GitProjects> git show
+commit da57574e508a0b62fd7f163e230599ac1db3282c (HEAD -> master)
+Author: Halo <halo@halo.ca>
+Date:   Sat Aug 12 11:12:36 2023 -0400
+
+    v2
+
+diff --git a/cmd codes.txt b/cmd codes.txt
+new file mode 100644
+index 0000000..668d78b
+--- /dev/null
++++ b/cmd codes.txt
+@@ -0,0 +1,48 @@
++Windows PowerShell
++Copyright (C) Microsoft Corporation. All rights reserved.
++
++Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
++
++PS C:\Users\rpert> cd C:\Users\rpert\OneDrive\Masaüstü\GitProjects
++PS C:\Users\rpert\OneDrive\Masaüstü\GitProjects> git init
++Initialized empty Git repository in C:/Users/rpert/OneDrive/Masaüstü/GitProjects/.git/
++PS C:\Users\rpert\OneDrive\Masaüstü\GitProjects> git status
++On branch master
++
++No commits yet
++
++Untracked files:
++  (use "git add <file>..." to include in what will be committed)
++        my_project.txt.txt
++
++nothing added to commit but untracked files present (use "git add" to track)
++PS C:\Users\rpert\OneDrive\Masaüstü\GitProjects> git add .
++PS C:\Users\rpert\OneDrive\Masaüstü\GitProjects> git status
++On branch master
++
++No commits yet
++
++Changes to be committed:
++  (use "git rm --cached <file>..." to unstage)
++        new file:   my_project.txt.txt
++
++PS C:\Users\rpert\OneDrive\Masaüstü\GitProjects> git commit -m "v1"
++[master (root-commit) 3d5cdd6] v1
++ 1 file changed, 2 insertions(+)
++ create mode 100644 my_project.txt.txt
++PS C:\Users\rpert\OneDrive\Masaüstü\GitProjects> git status
++On branch master
++Untracked files:
+:
