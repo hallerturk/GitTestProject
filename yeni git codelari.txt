@@ -1,0 +1,102 @@
+Microsoft Windows [Version 10.0.22621.2428]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\rpert\OneDrive\Masaüstü\HALIL FILES\_QA Course\Full-Stack QA Engineer\4-Git-GitHub>git init
+Initialized empty Git repository in C:/Users/rpert/OneDrive/Masaüstü/HALIL FILES/_QA Course/Full-Stack QA Engineer/4-Git-GitHub/.git/
+
+C:\Users\rpert\OneDrive\Masaüstü\HALIL FILES\_QA Course\Full-Stack QA Engineer\4-Git-GitHub>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        GIT - GITHUB 2022.pdf
+        Git-Github EnglishPDF.pdf
+        cmd codes.txt
+        my_textfile.txt.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\rpert\OneDrive\Masaüstü\HALIL FILES\_QA Course\Full-Stack QA Engineer\4-Git-GitHub>git add .
+
+C:\Users\rpert\OneDrive\Masaüstü\HALIL FILES\_QA Course\Full-Stack QA Engineer\4-Git-GitHub>git statusOn branch master
+
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   GIT - GITHUB 2022.pdf
+        new file:   Git-Github EnglishPDF.pdf
+        new file:   cmd codes.txt
+        new file:   my_textfile.txt.txt
+
+
+C:\Users\rpert\OneDrive\Masaüstü>git commit -m        e\Full-Stack QA Engineer\4-Git-GitHub>git commit -m "v1"
+[master (root-commit) 284013d] v1
+ 4 files changed, 129 insertions(+)
+ create mode 100644 GIT - GITHUB 2022.pdf
+ create mode 100644 Git-Github EnglishPDF.pdf
+ create mode 100644 cmd codes.txt
+ create mode 100644 my_textfile.txt.txt
+
+C:\Users\rpert\OneDrive\Masaüstü\HALIL FILES\_QA Course\Full-Stack QA Engineer\4-Git-GitHub>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\rpert\OneDrive\Masaüstü\HALIL FILES\_QA Course\Full-Stack QA Engineer\4-Git-GitHub>git log
+commit 284013dec1358e9c84c4e97c9acc63b1cc766ed8 (HEAD -> master)
+Author: hallerturk <halilerturk91@gmail.com>
+Date:   Sat Nov 11 17:08:00 2023 -0500
+
+    v1
+
+C:\Users\rpert\OneDrive\Masaüstü\HALIL FILES\_QA Course\Full-Stack QA Engineer\4-Git-GitHub>git log --oneline
+284013d (HEAD -> master) v1
+
+C:\Users\rpert\OneDrive\Masaüstü\HALIL FILES\_QA Course\Full-Stack QA Engineer\4-Git-GitHub>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   my_textfile.txt.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\rpert\OneDrive\Masaüstü\HALIL FILES\_QA Course\Full-Stack QA Engineer\4-Git-GitHub>git add .
+
+C:\Users\rpert\OneDrive\Masaüstü\HALIL FILES\_QA Course\Full-Stack QA Engineer\4-Git-GitHub>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   my_textfile.txt.txt
+
+
+C:\Users\rpert\OneDrive\Masaüstü\HALIL FILES\_QA Course\Full-Stack QA Engineer\4-Git-GitHub>git commit -m "v2"
+[master 9aac833] v2
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+C:\Users\rpert\OneDrive\Masaüstü\HALIL FILES\_QA Course\Full-Stack QA Engineer\4-Git-GitHub>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\rpert\OneDrive\Masaüstü\HALIL FILES\_QA Course\Full-Stack QA Engineer\4-Git-GitHub>git show
+commit 9aac833e0765b21b83e79469c508072e687c63ec (HEAD -> master)
+Author: hallerturk <halilerturk91@gmail.com>
+Date:   Sat Nov 11 17:13:41 2023 -0500
+
+    v2
+
+diff --git a/my_textfile.txt.txt b/my_textfile.txt.txt
+index 457070a..0515f90 100644
+--- a/my_textfile.txt.txt
++++ b/my_textfile.txt.txt
+@@ -1 +1,2 @@
+-This my project
+\ No newline at end of file
++This my project
++this code for version 2
+\ No newline at end of file
+
+C:\Users\rpert\OneDrive\Masaüstü\HALIL FILES\_QA Course\Full-Stack QA Engineer\4-Git-GitHub>
