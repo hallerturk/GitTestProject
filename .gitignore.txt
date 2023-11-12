@@ -1,0 +1,4 @@
+.gitignore
+sifreler
+
+"C:\Users\rpert\OneDrive\Masaüstü\HALIL FILES\_QA Course\Full-Stack QA Engineer\4-Git-GitHub\sifreler.txt"
