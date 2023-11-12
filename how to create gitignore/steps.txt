@@ -1,0 +1,13 @@
+1-Save As:
+
+When saving the file in your text editor, choose the "Save As" option instead of "Save" or "Save File."
+
+2-Specify File Type:
+
+In the "Save As" dialog, look for an option to specify the file type or file extension. Choose "All Files" or a similar option, and manually enter the filename as .gitignore (without the .txt extension).
+
+3-Save:
+
+After specifying the file type and setting the filename to .gitignore, click the "Save" button.
+
+This way, you explicitly save the file with the desired name and extension, preventing the text editor from appending a .txt extension.
